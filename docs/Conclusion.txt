@@ -1,0 +1,16 @@
+Installer
+npm install @angular/cli@latest
+
+Si installation local (sans "-g")
+ng = 
+node_modules/@angular/cli/bin/ng
+
+Créer un projet
+ng new TRUC
+
+Ouvrir un projet
+ng serve --open
+
+Créer un composant
+ng generate component TRUC
+
