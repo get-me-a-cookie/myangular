@@ -22,3 +22,25 @@ export class Hero {
   id: number;
   name: string;
 }
+
+UppercasePipe -> pipe (comme le bash)
+{{hero.name | uppercase}} Details
+accède au nom du héro, l'affiche en MAJUSCULE et affiche "Détails"
+
+Liaison bidirectionnelle
+	lie un champs d'une classe avec par exemple un champs d'un formulaire
+<input [(ngModel)]="hero.name" placeholder="name">
+Modifie le nom directement en modifiant le champ
+
+####################
+
+Installation de boostrasp
+npm install bootstrap --save
+npm install --save font-awesome
+
+angular.json
+"styles": [
+  "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "styles.css",
+  "../node_modules/font-awesome/css/font-awesome.css"
+],
