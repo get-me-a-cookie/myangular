@@ -44,3 +44,8 @@ angular.json
   "styles.css",
   "../node_modules/font-awesome/css/font-awesome.css"
 ],
+
+####################
+
+ajout évenementt clique
+(click)="onSelect(hero)"
