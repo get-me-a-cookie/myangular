@@ -49,3 +49,32 @@ angular.json
 
 ajout évenementt clique
 (click)="onSelect(hero)"
+
+
+définition de l’evenement
+onSelect(hero: Hero): void {
+  this.selectedHero = hero;
+}
+
+ajout de css conditionnel
+[class.selected]="hero === selectedHero"
+
+####################
+
+refactoring
+Divise l'affichage des detail et la liste
+
+dans le .ts des details
+import { Component, OnInit, Input } from '@angular/core';
+import { Hero } from '../hero';
+@Input() hero: Hero;
+import le input effectué dans héro pour le mettre dans le "hero"
+
+dans le template de la liste
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
+lie la propriété héro (hero-detail) au hero sélectionné (herocomponent)
+
+####################
+
+créer un service
+ng generate service TRUC
