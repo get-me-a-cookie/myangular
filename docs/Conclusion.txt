@@ -78,3 +78,10 @@ lie la propriété héro (hero-detail) au hero sélectionné (herocomponent)
 
 créer un service
 ng generate service TRUC
+
+Création d'une unique instance quand la classe est demander
+  providers: [
+    HeroService,
+/* . . . */
+  ],
+
