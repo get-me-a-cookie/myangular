@@ -85,3 +85,10 @@ Création d'une unique instance quand la classe est demander
 /* . . . */
   ],
 
+####################
+
+Création d'un routeur
+ng generate module TRUC --flat --module=app
+--flat place le fichier dans src/app au lieu de son propre dossier.
+--module=app demande à la CLI de l'enregistrer dans le tableau imports de l'AppModule.
+
