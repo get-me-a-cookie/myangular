@@ -92,3 +92,14 @@ ng generate module TRUC --flat --module=app
 --flat place le fichier dans src/app au lieu de son propre dossier.
 --module=app demande à la CLI de l'enregistrer dans le tableau imports de l'AppModule.
 
+<a routerLink="/heroes">Heroes</a>  Comme le href
+<router-outlet></router-outlet>   affiche les vues aux routes demander
+
+Route par défault
+{ path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+
+Si chemin différent pour x héros
+:id
+
+Ajout d'un bouton
+<button (click)="FONCTION A APpELER()">TEXTE</button>
