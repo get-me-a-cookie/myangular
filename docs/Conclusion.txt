@@ -1,5 +1,6 @@
 Installer
 npm install @angular/cli@latest
+npm install
 
 Si installation local (sans "-g")
 ng = 
