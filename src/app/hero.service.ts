@@ -14,8 +14,8 @@ const httpOptions = {
 @Injectable({ providedIn: 'root' })
 export class HeroService {
 
-  private heroesUrl = 'api/heroes';  // URL to web api
-
+  private heroesUrl = 'http://localhost/rest/webservice.php/hero';
+  
   constructor(
     private http: HttpClient,
     private messageService: MessageService) { }

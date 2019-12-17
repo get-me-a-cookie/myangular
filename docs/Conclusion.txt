@@ -103,4 +103,13 @@ Si chemin différent pour x héros
 :id
 
 Ajout d'un bouton
-<button (click)="FONCTION A APpELER()">TEXTE</button>
+<button (click)="FONCTION A APPELER()">TEXTE</button>
+
+####################
+
+Intallation serveur virtuel
+npm install angular-in-memory-web-api --save
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService }  from './in-memory-data.service';
+
+donné l'url de la table vers ou trouvé les objets (ici héros (private heroesUrl = 'http://localhost/rest/webservice.php/hero'))
